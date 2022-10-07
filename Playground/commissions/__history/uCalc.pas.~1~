@@ -1,0 +1,14 @@
+unit uCalc;
+
+interface
+
+
+function calcCommissions(total: single): single;
+implementation
+
+function calcCommissions(total: single): single;
+begin
+
+end;
+
+end.

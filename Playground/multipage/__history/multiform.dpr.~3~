@@ -1,0 +1,19 @@
+program multiform;
+
+uses
+  Vcl.Forms,
+  uPrincipal in 'uPrincipal.pas' {frmPrincipal},
+  uJurosSimples in 'uJurosSimples.pas' {frmJurosSimples},
+  uJurosCompostos in 'uJurosCompostos.pas' {frmCapitalJurosCapital};
+
+{$R *.res}
+
+begin
+  ReportMemoryLeaksOnShutdown := True;
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmPrincipal, frmPrincipal);
+  Application.CreateForm(TfrmJurosSimples, frmJurosSimples);
+  Application.CreateForm(TfrmCapitalJurosCapital, frmCapitalJurosCapital);
+  Application.Run;
+end.

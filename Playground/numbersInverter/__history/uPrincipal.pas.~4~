@@ -1,0 +1,41 @@
+unit uPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.Buttons;
+
+type
+  TfrmPrincipal = class(TForm)
+    ledtFirstNumber: TLabeledEdit;
+    ledtSecondNumber: TLabeledEdit;
+    btnInverter: TButton;
+    procedure btnInverterClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmPrincipal.btnInverterClick(Sender: TObject);
+var
+  values: TArray<String>;
+begin
+  setLength(values, 2);
+  values[0] := ledtFirstNumber.Text;
+  values[1] := ledtSecondNumber.Text;
+
+  ledtFirstNumber.Text := values[1];
+  ledtSecondNumber.Text := values[0];
+end;
+
+end.

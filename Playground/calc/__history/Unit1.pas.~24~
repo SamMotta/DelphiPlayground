@@ -1,0 +1,54 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Menus, Vcl.ExtCtrls;
+
+type
+  TequationForm = class(TForm)
+    btnResultado: TButton;
+    aviso: TLabel;
+    ValueA: TLabeledEdit;
+    ValueB: TLabeledEdit;
+    ValueC: TLabeledEdit;
+    resultX1: TLabeledEdit;
+    resultX2: TLabeledEdit;
+    procedure btnResultadoClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  equationForm: TequationForm;
+
+implementation
+
+const
+  sLineBreak = {$IFDEF LINUX} AnsiChar(#10) {$ENDIF}
+{$IFDEF MSWINDOWS} AnsiString(#13#10) {$ENDIF};
+{$R *.dfm}
+
+procedure TequationForm.btnResultadoClick(Sender: TObject);
+var
+  numA, numB, numC, delta, x1, x2: Double;
+
+begin
+  numA := StrToFloat(valueA.Text);
+  numB := StrToFloat(ValueB.Text);
+  numC := -Abs(StrToFloat(valueC.Text));
+
+  delta := (numB * numB) - (4 * numA * numC);
+
+  x1 := (-numB + Sqrt(delta)) / (numA * 2);
+  x2 := (-numB - Sqrt(delta)) / (numA * 2);
+
+  resultX1.Text := FloatToStr(x1);
+  resultX2.Text := FloatToStr(x2);
+end;
+
+end.

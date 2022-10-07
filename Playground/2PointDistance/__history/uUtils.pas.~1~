@@ -1,0 +1,24 @@
+unit uUtils;
+
+interface
+
+uses
+  Math;
+
+function calcDistancia(pontoUm, pontoDois: Array of double): double;
+
+implementation
+
+function calcDistancia(pontoUm, pontoDois: Array of double): double;
+var
+  distancia: double;
+
+begin
+
+  result := sqrt(
+    Power(pontoUm[0] - pontoDois[0], 2) +
+    Power(pontoUm[1] - pontoDois[1], 2));
+
+end;
+
+end.

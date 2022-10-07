@@ -1,0 +1,16 @@
+unit uCalc;
+
+interface
+
+function calcCommissions(total: Currency): Currency;
+
+implementation
+
+function calcCommissions(total: Currency): Currency;
+const
+  commission = 0.15;
+begin
+  result := total * commission;
+end;
+
+end.

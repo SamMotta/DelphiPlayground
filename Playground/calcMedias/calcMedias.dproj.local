@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/08/26 11:08:02.000.034,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/08/26 16:38:33.000.319,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/20 11:30:40.000.401,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/20 11:31:21.000.837,E:\Coding\Delphi\calcMedias\uPrincipal.pas=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/20 11:31:21.000.837,E:\Coding\Delphi\calcMedias\uPrincipal.dfm=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/09/20 11:31:28.000.681,E:\Coding\Delphi\calcMedias\calcMedeias.dproj=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2022/09/20 11:31:57.000.319,E:\Coding\Delphi\calcMedias\calcMedias.dproj=E:\Coding\Delphi\calcMedias\calcMedeias.dproj</Transaction>
+    <Transaction>2022/09/20 18:52:23.000.682,=F:\Coding\Delphi\calcMedias\Unit1.pas</Transaction>
+    <Transaction>2022/09/20 18:52:33.000.894,F:\Coding\Delphi\calcMedias\Unit1.pas=F:\Coding\Delphi\calcMedias\uUtils.pas</Transaction>
+  </Transactions>
+</BorlandProject>

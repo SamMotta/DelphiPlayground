@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/08/26 11:08:02.000.034,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/08/26 16:38:33.000.319,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/15 11:30:00.000.570,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/15 11:32:16.000.615,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas=E:\Coding\Delphi\2PointDistance\uPrincipal.pas</Transaction>
+    <Transaction>2022/09/15 11:32:16.000.615,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.dfm=E:\Coding\Delphi\2PointDistance\uPrincipal.dfm</Transaction>
+    <Transaction>2022/09/15 11:32:40.000.958,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Project2.dproj=E:\Coding\Delphi\2PointDistance\TwoPointDistance.dproj</Transaction>
+    <Transaction>2022/09/15 20:27:48.000.897,=F:\Coding\Delphi\2PointDistance\Unit1.pas</Transaction>
+    <Transaction>2022/09/15 20:51:25.000.310,F:\Coding\Delphi\2PointDistance\uUtils.pas=F:\Coding\Delphi\2PointDistance\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

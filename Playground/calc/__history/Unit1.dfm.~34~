@@ -1,0 +1,98 @@
+object equationForm: TequationForm
+  Left = 0
+  Top = 0
+  Caption = 'Equa'#231#227'o de 2'#186' Grau'
+  ClientHeight = 233
+  ClientWidth = 400
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object aviso: TLabel
+    Left = 168
+    Top = 134
+    Width = 201
+    Height = 80
+    Caption = 
+      'Valor de C precisa ser um n'#250'mero negativo, ent'#227'o, pr'#243'prio progam' +
+      'a j'#225' infere o valor de C como um n'#250'mero negativo, mesmo que o co' +
+      'loque como negativo.'
+    Color = clHighlight
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentColor = False
+    ParentFont = False
+    Transparent = True
+    Visible = False
+    WordWrap = True
+  end
+  object btnResultado: TButton
+    Left = 39
+    Top = 176
+    Width = 105
+    Height = 44
+    Caption = 'Resultado'
+    Default = True
+    TabOrder = 0
+    OnClick = btnResultadoClick
+  end
+  object ValueA: TLabeledEdit
+    Left = 31
+    Top = 34
+    Width = 121
+    Height = 21
+    EditLabel.Width = 56
+    EditLabel.Height = 13
+    EditLabel.Caption = 'Valor de  A:'
+    TabOrder = 1
+  end
+  object ValueB: TLabeledEdit
+    Left = 31
+    Top = 81
+    Width = 121
+    Height = 21
+    EditLabel.Width = 55
+    EditLabel.Height = 13
+    EditLabel.Caption = 'Valor de  B:'
+    TabOrder = 2
+  end
+  object ValueC: TLabeledEdit
+    Left = 31
+    Top = 134
+    Width = 121
+    Height = 21
+    EditLabel.Width = 56
+    EditLabel.Height = 13
+    EditLabel.Caption = 'Valor de  C:'
+    TabOrder = 3
+  end
+  object resultX1: TLabeledEdit
+    Left = 248
+    Top = 34
+    Width = 121
+    Height = 21
+    EditLabel.Width = 59
+    EditLabel.Height = 13
+    EditLabel.Caption = 'Resultado X'#39
+    TabOrder = 4
+  end
+  object resultX2: TLabeledEdit
+    Left = 248
+    Top = 82
+    Width = 121
+    Height = 21
+    EditLabel.Width = 61
+    EditLabel.Height = 13
+    EditLabel.Caption = 'Resultado X'#39#39
+    TabOrder = 5
+  end
+end
