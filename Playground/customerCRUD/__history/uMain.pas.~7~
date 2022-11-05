@@ -1,0 +1,38 @@
+unit uMain;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ButtonGroup, Data.DB, Vcl.Grids,
+  Vcl.DBGrids;
+
+type
+  TfrmCustomerRegistration = class(TForm)
+    btngForms: TButtonGroup;
+    customersGrid: TDBGrid;
+    procedure btngFormsItems0Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCustomerRegistration: TfrmCustomerRegistration;
+
+implementation
+
+uses
+  uCreateCustomer;
+
+{$R *.dfm}
+
+procedure TfrmCustomerRegistration.btngFormsItems0Click(Sender: TObject);
+var
+  frmCreateCustomer: TfrmCreateCustomer;
+begin
+
+end;
+
+end.

@@ -1,0 +1,25 @@
+unit uMain;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ButtonGroup;
+
+type
+  TfrmCustomerRegistration = class(TForm)
+    ButtonGroup1: TButtonGroup;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCustomerRegistration: TfrmCustomerRegistration;
+
+implementation
+
+{$R *.dfm}
+
+end.

@@ -1,0 +1,73 @@
+unit uMain;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ButtonGroup, Data.DB, Vcl.Grids,
+  Vcl.DBGrids, uDTMConnection;
+
+type
+  TfrmCustomerRegistration = class(TForm)
+    btngForms: TButtonGroup;
+    customersGrid: TDBGrid;
+    procedure btngFormsItems0Click(Sender: TObject);
+    procedure btngFormsItems1Click(Sender: TObject);
+    procedure btngFormsItems2Click(Sender: TObject);
+    procedure btngFormsItems3Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCustomerRegistration: TfrmCustomerRegistration;
+
+implementation
+
+uses
+  uCreateCustomer, uSearchCustomer, uUpdateCustomer, uDeleteCustomer;
+
+{$R *.dfm}
+
+procedure TfrmCustomerRegistration.btngFormsItems0Click(Sender: TObject);
+var
+  frmCreateCustomer: TfrmCreateCustomer;
+begin
+  frmCreateCustomer := TfrmCreateCustomer.Create(nil);
+  frmCreateCustomer.ShowModal;
+  frmCreateCustomer.Free;
+end;
+
+procedure TfrmCustomerRegistration.btngFormsItems1Click(Sender: TObject);
+var
+  frmSearchCustomer: TfrmSearchCustomer;
+begin
+  frmSearchCustomer := TfrmSearchCustomer.Create(nil);
+  frmSearchCustomer.ShowModal;
+  frmSearchCustomer.Free;
+end;
+
+procedure TfrmCustomerRegistration.btngFormsItems2Click(Sender: TObject);
+var
+  frmUpdateCustomer: TfrmUpdateCustomer;
+
+begin
+  frmUpdateCustomer := TfrmUpdateCustomer.Create(nil);
+  frmUpdateCustomer.ShowModal;
+  frmUpdateCustomer.Free;
+end;
+
+procedure TfrmCustomerRegistration.btngFormsItems3Click(Sender: TObject);
+var
+  frmDeleteCustomer: TfrmDeleteCustomer;
+
+begin
+  frmDeleteCustomer := TfrmDeleteCustomer.Create(nil);
+  frmDeleteCustomer.ShowModal;
+  frmDeleteCustomer.Free;
+end;
+
+end.

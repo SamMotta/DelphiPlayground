@@ -1,0 +1,14 @@
+program customerCRUD;
+
+uses
+  Vcl.Forms,
+  uMain in 'uMain.pas' {frmCustomer};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmCustomer, frmCustomer);
+  Application.Run;
+end.

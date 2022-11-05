@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/17 23:53:49.000.741,=C:\Users\Sam\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/28 14:10:34.000.897,=C:\Users\Sam\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/28 14:11:27.000.986,F:\Delphi\Playground\customerCRUD\uMain.dfm=C:\Users\Sam\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/10/28 14:11:27.000.986,F:\Delphi\Playground\customerCRUD\uMain.pas=C:\Users\Sam\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/28 14:11:34.000.638,F:\Delphi\Playground\customerCRUD\customerCRUD.dproj=C:\Users\Sam\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/10/28 14:30:45.000.257,=F:\Delphi\Playground\customerCRUD\Unit1.pas</Transaction>
+    <Transaction>2022/10/28 14:31:19.000.723,F:\Delphi\Playground\customerCRUD\uDTMConnection.pas=F:\Delphi\Playground\customerCRUD\Unit1.pas</Transaction>
+    <Transaction>2022/10/28 14:31:19.000.723,F:\Delphi\Playground\customerCRUD\uDTMConnection.dfm=F:\Delphi\Playground\customerCRUD\Unit1.dfm</Transaction>
+    <Transaction>2022/10/28 14:49:17.000.360,=F:\Delphi\Playground\customerCRUD\Unit1.pas</Transaction>
+    <Transaction>2022/10/28 14:49:27.000.897,F:\Delphi\Playground\customerCRUD\uCreateCustomer.pas=F:\Delphi\Playground\customerCRUD\Unit1.pas</Transaction>
+    <Transaction>2022/10/28 14:49:27.000.897,F:\Delphi\Playground\customerCRUD\uCreateCustomer.dfm=F:\Delphi\Playground\customerCRUD\Unit1.dfm</Transaction>
+    <Transaction>2022/10/28 15:25:41.000.139,=F:\Delphi\Playground\customerCRUD\Unit1.pas</Transaction>
+    <Transaction>2022/10/28 15:26:11.000.519,F:\Delphi\Playground\customerCRUD\uSearchCustomer.dfm=F:\Delphi\Playground\customerCRUD\Unit1.dfm</Transaction>
+    <Transaction>2022/10/28 15:26:11.000.519,F:\Delphi\Playground\customerCRUD\uSearchCustomer.pas=F:\Delphi\Playground\customerCRUD\Unit1.pas</Transaction>
+    <Transaction>2022/10/28 16:00:24.000.393,=F:\Delphi\Playground\customerCRUD\Unit1.pas</Transaction>
+    <Transaction>2022/10/28 16:01:34.000.424,F:\Delphi\Playground\customerCRUD\uUpdateCustomer.dfm=F:\Delphi\Playground\customerCRUD\Unit1.dfm</Transaction>
+    <Transaction>2022/10/28 16:01:34.000.424,F:\Delphi\Playground\customerCRUD\uUpdateCustomer.pas=F:\Delphi\Playground\customerCRUD\Unit1.pas</Transaction>
+    <Transaction>2022/10/28 16:37:36.000.334,=F:\Delphi\Playground\customerCRUD\Unit1.pas</Transaction>
+    <Transaction>2022/10/28 16:38:17.000.057,F:\Delphi\Playground\customerCRUD\uDeleteCustomer.dfm=F:\Delphi\Playground\customerCRUD\Unit1.dfm</Transaction>
+    <Transaction>2022/10/28 16:38:17.000.057,F:\Delphi\Playground\customerCRUD\uDeleteCustomer.pas=F:\Delphi\Playground\customerCRUD\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

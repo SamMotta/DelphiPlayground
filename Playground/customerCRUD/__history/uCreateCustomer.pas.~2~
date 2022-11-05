@@ -1,0 +1,28 @@
+unit uCreateCustomer;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TfrmCreateCustomer = class(TForm)
+    ledtNome: TLabeledEdit;
+    ledtEndereco: TLabeledEdit;
+    ledtCpfCnpj: TLabeledEdit;
+    ledtDivida: TLabeledEdit;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCreateCustomer: TfrmCreateCustomer;
+
+implementation
+
+{$R *.dfm}
+
+end.

@@ -1,0 +1,70 @@
+unit uSearchCustomer;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls,
+  uDTMConnection;
+
+type
+  TfrmSearchCustomer = class(TForm)
+    btnSubmit: TButton;
+    ledtCpfCnpj: TLabeledEdit;
+    ledtDivida: TLabeledEdit;
+    ledtEndereco: TLabeledEdit;
+    ledtNome: TLabeledEdit;
+    ledtClientID: TLabeledEdit;
+    procedure btnSubmitClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmSearchCustomer: TfrmSearchCustomer;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmSearchCustomer.btnSubmitClick(Sender: TObject);
+var
+  clientID: integer;
+  nome: string;
+  endereco: string;
+  cpfCnpj: string;
+  divida: integer;
+begin
+  clientID := StrToInt(ledtClientID.Text);
+
+  with dtmConnection do
+  begin
+    while not qr.Eof do
+    begin
+      if (clientID = qr.FieldByName('id').AsInteger) then
+      begin
+        nome := qr.FieldByName('nome').AsString;
+        endereco := qr.FieldByName('endereco').AsString;
+        cpfCnpj := qr.FieldByName('cpfCnpj').AsString;
+        divida := qr.FieldByName('divida').AsInteger;
+
+        break;
+      end;
+      qr.Next;
+    end;
+  end;
+
+  if (nome.ToBoolean) then
+  begin
+    nome := ledtNome.Text;
+    endereco := ledtEndereco.Text;
+    cpfCnpj := ledtCpfCnpj.Text;
+    divida := StrToInt(ledtdivida.Text);
+  end else ShowMessage('Não há algum cliente com este ID!');
+
+end;
+
+end.

@@ -1,0 +1,16 @@
+program customerCRUD;
+
+uses
+  Vcl.Forms,
+  uMain in 'uMain.pas' {frmCustomerRegistration},
+  uDTMConnection in 'uDTMConnection.pas' {DataModule1: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmCustomerRegistration, frmCustomerRegistration);
+  Application.CreateForm(TDataModule1, DataModule1);
+  Application.Run;
+end.

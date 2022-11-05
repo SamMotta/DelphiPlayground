@@ -2,23 +2,23 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2022/09/02 20:55:17.000.406,=C:\Users\Sam\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/09/02 20:56:04.000.772,F:\Coding\Delphi\multipage\uPrincipal.dfm=C:\Users\Sam\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2022/09/02 20:56:04.000.772,F:\Coding\Delphi\multipage\uPrincipal.pas=C:\Users\Sam\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/09/02 20:56:14.000.808,F:\Coding\Delphi\multipage\multiform.dproj=C:\Users\Sam\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/09/02 20:56:04.000.772,C:\Users\Sam\Documents\Embarcadero\Studio\Projects\Unit1.dfm=F:\Coding\Delphi\multipage\uPrincipal.dfm</Transaction>
+    <Transaction>2022/09/02 20:56:04.000.772,C:\Users\Sam\Documents\Embarcadero\Studio\Projects\Unit1.pas=F:\Coding\Delphi\multipage\uPrincipal.pas</Transaction>
+    <Transaction>2022/09/02 20:56:14.000.808,C:\Users\Sam\Documents\Embarcadero\Studio\Projects\Project1.dproj=F:\Coding\Delphi\multipage\multiform.dproj</Transaction>
     <Transaction>2022/09/02 21:00:56.000.378,=F:\Coding\Delphi\multipage\Unit1.pas</Transaction>
-    <Transaction>2022/09/02 21:01:25.000.657,F:\Coding\Delphi\multipage\uForm.pas=F:\Coding\Delphi\multipage\Unit1.pas</Transaction>
-    <Transaction>2022/09/02 21:01:25.000.657,F:\Coding\Delphi\multipage\uForm.dfm=F:\Coding\Delphi\multipage\Unit1.dfm</Transaction>
-    <Transaction>2022/09/03 12:52:54.144,F:\Coding\Delphi\multipage\uJurosSimples.pas=F:\Coding\Delphi\multipage\uForm.pas</Transaction>
-    <Transaction>2022/09/03 12:52:54.144,F:\Coding\Delphi\multipage\uJurosSimples.dfm=F:\Coding\Delphi\multipage\uForm.dfm</Transaction>
-    <Transaction>2022/09/03 12:53:10.947,=F:\Coding\Delphi\multipage\Unit1.pas</Transaction>
-    <Transaction>2022/09/03 12:58:06.046,F:\Coding\Delphi\multipage\uCapital.dfm=F:\Coding\Delphi\multipage\Unit1.dfm</Transaction>
-    <Transaction>2022/09/03 12:58:06.046,F:\Coding\Delphi\multipage\uCapital.pas=F:\Coding\Delphi\multipage\Unit1.pas</Transaction>
-    <Transaction>2022/09/03 12:59:39.394,F:\Coding\Delphi\multipage\uJurosCompostos.pas=F:\Coding\Delphi\multipage\uCapital.pas</Transaction>
-    <Transaction>2022/09/03 12:59:39.394,F:\Coding\Delphi\multipage\uJurosCompostos.dfm=F:\Coding\Delphi\multipage\uCapital.dfm</Transaction>
-    <Transaction>2022/09/03 13:51:44.971,F:\Coding\Delphi\multipage\uJurosCompostos.pas=</Transaction>
-    <Transaction>2022/09/03 13:51:51.719,=F:\Coding\Delphi\multipage\Unit1.pas</Transaction>
-    <Transaction>2022/09/03 13:53:43.985,F:\Coding\Delphi\multipage\uJurosCompostos.pas=F:\Coding\Delphi\multipage\Unit1.pas</Transaction>
-    <Transaction>2022/09/03 13:53:43.985,F:\Coding\Delphi\multipage\uJurosCompostos.dfm=F:\Coding\Delphi\multipage\Unit1.dfm</Transaction>
+    <Transaction>2022/09/02 21:01:25.000.657,F:\Coding\Delphi\multipage\Unit1.dfm=F:\Coding\Delphi\multipage\uForm.dfm</Transaction>
+    <Transaction>2022/09/02 21:01:25.000.657,F:\Coding\Delphi\multipage\Unit1.pas=F:\Coding\Delphi\multipage\uForm.pas</Transaction>
+    <Transaction>2022/09/03 12:52:54.000.144,F:\Coding\Delphi\multipage\uForm.dfm=F:\Coding\Delphi\multipage\uJurosSimples.dfm</Transaction>
+    <Transaction>2022/09/03 12:52:54.000.144,F:\Coding\Delphi\multipage\uForm.pas=F:\Coding\Delphi\multipage\uJurosSimples.pas</Transaction>
+    <Transaction>2022/09/03 12:53:10.000.947,=F:\Coding\Delphi\multipage\Unit1.pas</Transaction>
+    <Transaction>2022/09/03 12:58:06.000.046,F:\Coding\Delphi\multipage\Unit1.pas=F:\Coding\Delphi\multipage\uCapital.pas</Transaction>
+    <Transaction>2022/09/03 12:58:06.000.046,F:\Coding\Delphi\multipage\Unit1.dfm=F:\Coding\Delphi\multipage\uCapital.dfm</Transaction>
+    <Transaction>2022/09/03 12:59:39.000.394,F:\Coding\Delphi\multipage\uCapital.pas=F:\Coding\Delphi\multipage\uJurosCompostos.pas</Transaction>
+    <Transaction>2022/09/03 12:59:39.000.394,F:\Coding\Delphi\multipage\uCapital.dfm=F:\Coding\Delphi\multipage\uJurosCompostos.dfm</Transaction>
+    <Transaction>2022/09/03 13:51:44.000.971,F:\Coding\Delphi\multipage\uJurosCompostos.pas=</Transaction>
+    <Transaction>2022/09/03 13:51:51.000.719,=F:\Coding\Delphi\multipage\Unit1.pas</Transaction>
+    <Transaction>2022/09/03 13:53:43.000.985,F:\Coding\Delphi\multipage\Unit1.pas=F:\Coding\Delphi\multipage\uJurosCompostos.pas</Transaction>
+    <Transaction>2022/09/03 13:53:43.000.985,F:\Coding\Delphi\multipage\Unit1.dfm=F:\Coding\Delphi\multipage\uJurosCompostos.dfm</Transaction>
   </Transactions>
 	<BT_BuildType>Debug</BT_BuildType>
 </BorlandProject>
