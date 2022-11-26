@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/17 23:53:49.000.741,=C:\Users\Sam\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/11/25 13:39:41.000.636,=C:\Users\Sam\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/11/25 13:41:12.000.834,E:\Coding\delphi\VCL\paymentCRUD\payment.model.view.pas=C:\Users\Sam\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/11/25 13:41:12.000.834,E:\Coding\delphi\VCL\paymentCRUD\payment.model.view.dfm=C:\Users\Sam\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/11/25 13:41:17.000.798,E:\Coding\delphi\VCL\paymentCRUD\paymentCRUD.dproj=C:\Users\Sam\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/11/25 13:48:59.000.015,E:\Coding\delphi\VCL\paymentCRUD\uPrincipal.dfm=E:\Coding\delphi\VCL\paymentCRUD\payment.model.view.dfm</Transaction>
+    <Transaction>2022/11/25 13:48:59.000.015,E:\Coding\delphi\VCL\paymentCRUD\uPrincipal.pas=E:\Coding\delphi\VCL\paymentCRUD\payment.model.view.pas</Transaction>
+    <Transaction>2022/11/25 14:41:26.000.892,=F:\Delphi\Playground\customerCRUD\Unit1.pas</Transaction>
+    <Transaction>2022/11/25 14:42:04.000.056,=E:\Coding\delphi\VCL\paymentCRUD\Unit1.pas</Transaction>
+    <Transaction>2022/11/25 14:42:14.000.369,E:\Coding\delphi\VCL\paymentCRUD\uCadastro.pas=E:\Coding\delphi\VCL\paymentCRUD\Unit1.pas</Transaction>
+    <Transaction>2022/11/25 14:42:14.000.369,E:\Coding\delphi\VCL\paymentCRUD\uCadastro.dfm=E:\Coding\delphi\VCL\paymentCRUD\Unit1.dfm</Transaction>
+    <Transaction>2022/11/25 14:46:30.000.339,E:\Coding\delphi\VCL\debtCRUD\paymentCRUD.dproj=E:\Coding\delphi\VCL\debtCRUD\debtCRUD.dproj</Transaction>
+    <Transaction>2022/11/25 15:02:16.000.657,=E:\Coding\delphi\VCL\debtCRUD\Unit1.pas</Transaction>
+    <Transaction>2022/11/25 15:02:32.000.073,E:\Coding\delphi\VCL\debtCRUD\classes.debt.pas=E:\Coding\delphi\VCL\debtCRUD\Unit1.pas</Transaction>
+    <Transaction>2022/11/25 15:03:45.000.168,=E:\Coding\delphi\VCL\debtCRUD\Unit1.pas</Transaction>
+    <Transaction>2022/11/25 15:03:59.000.934,E:\Coding\delphi\VCL\debtCRUD\interfaces.debt.pas=E:\Coding\delphi\VCL\debtCRUD\Unit1.pas</Transaction>
+    <Transaction>2022/11/25 16:38:57.133,=E:\Coding\delphi\VCL\debtCRUD\uPayment.pas</Transaction>
+    <Transaction>2022/11/25 16:51:33.285,=E:\Coding\delphi\VCL\debtCRUD\Unit1.pas</Transaction>
+    <Transaction>2022/11/25 16:51:39.770,E:\Coding\delphi\VCL\debtCRUD\dm.pas=E:\Coding\delphi\VCL\debtCRUD\Unit1.pas</Transaction>
+    <Transaction>2022/11/25 16:51:39.770,E:\Coding\delphi\VCL\debtCRUD\dm.dfm=E:\Coding\delphi\VCL\debtCRUD\Unit1.dfm</Transaction>
+    <Transaction>2022/11/25 16:56:15.555,=E:\Coding\delphi\VCL\debtCRUD\libmysql.dll</Transaction>
+    <Transaction>2022/11/25 16:56:36.966,E:\Coding\delphi\VCL\debtCRUD\libmysql.dll=</Transaction>
+    <Transaction>2022/11/25 23:22:46.360,=E:\Coding\delphi\VCL\debtCRUD\Unit1.pas</Transaction>
+    <Transaction>2022/11/25 23:22:55.420,E:\Coding\delphi\VCL\debtCRUD\uAdmin.dfm=E:\Coding\delphi\VCL\debtCRUD\Unit1.dfm</Transaction>
+    <Transaction>2022/11/25 23:22:55.420,E:\Coding\delphi\VCL\debtCRUD\uAdmin.pas=E:\Coding\delphi\VCL\debtCRUD\Unit1.pas</Transaction>
+    <Transaction>2022/11/25 23:30:12.511,E:\Coding\delphi\VCL\debtCRUD\uDeleteDebt.dfm=E:\Coding\delphi\VCL\debtCRUD\uAdmin.dfm</Transaction>
+    <Transaction>2022/11/25 23:30:12.511,E:\Coding\delphi\VCL\debtCRUD\uDeleteDebt.pas=E:\Coding\delphi\VCL\debtCRUD\uAdmin.pas</Transaction>
+  </Transactions>
+</BorlandProject>

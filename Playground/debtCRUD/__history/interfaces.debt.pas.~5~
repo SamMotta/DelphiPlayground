@@ -1,0 +1,18 @@
+unit interfaces.debt;
+
+interface
+
+type
+  iDebt = interface
+    function setDescription(aValue: string): iDebt;
+    function setDebtorName(aValue: string): iDebt;
+    function setDebtorPhoneNumber(aValue: string): iDebt;
+    function setDebt(aValue: Decimal): iDebt;
+    function setDebtType(aValue: TDebtType): iDebt;
+
+    function getDebt: double;
+  end;
+
+implementation
+
+end.

@@ -1,0 +1,18 @@
+program debtCRUD;
+
+uses
+  Vcl.Forms,
+  uPrincipal in 'uPrincipal.pas' {frmPrincipal},
+  uCadastro in 'uCadastro.pas' {frmCreateDebt},
+  classes.debt in 'classes.debt.pas',
+  interfaces.debt in 'interfaces.debt.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmPrincipal, frmPrincipal);
+  Application.CreateForm(TfrmCreateDebt, frmCreateDebt);
+  Application.Run;
+end.

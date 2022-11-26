@@ -1,0 +1,53 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Home'
+  ClientHeight = 343
+  ClientWidth = 566
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnClose = FormClose
+  DesignSize = (
+    566
+    343)
+  PixelsPerInch = 96
+  TextHeight = 13
+  object debtorGrid: TDBGrid
+    Left = 168
+    Top = 8
+    Width = 390
+    Height = 327
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    TabOrder = 0
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object ButtonGroup: TButtonGroup
+    Left = 8
+    Top = 8
+    Width = 140
+    Height = 76
+    ButtonWidth = 130
+    ButtonOptions = [gboFullSize, gboShowCaptions]
+    Items = <
+      item
+        Caption = 'Cadastrar d'#237'vida'
+        OnClick = ButtonGroupItems0Click
+      end
+      item
+        Caption = 'Realizar pagamento'
+      end
+      item
+        Caption = 'Administrar d'#237'vidas'
+      end>
+    TabOrder = 1
+  end
+end

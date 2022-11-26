@@ -1,0 +1,53 @@
+unit uPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Vcl.Grids, Vcl.DBGrids,
+  Vcl.ButtonGroup;
+
+type
+  TDebtEnum = (PAGAR = 0, RECEBER = 1);
+
+  TfrmPrincipal = class(TForm)
+    debtorGrid: TDBGrid;
+    ButtonGroup: TButtonGroup;
+    procedure ButtonGroupItems0Click(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+
+implementation
+
+uses
+  uCadastro;
+
+{$R *.dfm}
+
+procedure TfrmPrincipal.ButtonGroupItems0Click(Sender: TObject);
+var
+  form: TfrmCreateDebt;
+
+begin
+  try
+    form := TfrmCreateDebt.Create(nil);
+    form.ShowModal;
+  finally
+    FreeAndNil(form);
+  end;
+end;
+
+procedure TfrmPrincipal.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+  ReportMemoryLeaksOnShutdown := true;
+end;
+
+end.

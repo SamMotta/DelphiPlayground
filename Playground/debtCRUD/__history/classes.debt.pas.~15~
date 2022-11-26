@@ -1,0 +1,117 @@
+unit classes.debt;
+
+interface
+
+uses
+  interfaces.debt, uPrincipal;
+
+type
+  TDebt = class(TInterfacedObject, iDebt)
+  private
+    FDescription, FDebtorName, FDebtorPhoneNumber: string;
+    FDebt: double;
+    FDebtType: TDebtEnum;
+    FDebtStatus: boolean;
+  public
+    function description(aValue: string): iDebt; overload;
+    function debtorName(aValue: string): iDebt; overload;
+    function debtorPhoneNumber(aValue: string): iDebt; overload;
+    function debt(aValue: double): iDebt; overload;
+    function debtType(aValue: TDebtEnum): iDebt; overload;
+    function debtStatus(aValue: boolean): iDebt; overload;
+
+    function description: string; overload;
+    function debtorName: string; overload;
+    function debtorPhoneNumber: string; overload;
+    function debt: double; overload;
+    function debtType: TDebtEnum; overload;
+    function debtStatus: boolean; overload;
+
+    constructor Create;
+    destructor Destroy; override;
+    class function New: iDebt;
+  end;
+
+implementation
+
+{ TDebt }
+
+{ TDebt }
+
+constructor TDebt.Create;
+begin
+
+end;
+
+function TDebt.debt: double;
+begin
+
+end;
+
+function TDebt.debt(aValue: double): iDebt;
+begin
+  Result := Self;
+end;
+
+function TDebt.debtorName: string;
+begin
+
+end;
+
+function TDebt.debtorName(aValue: string): iDebt;
+begin
+  Result := Self;
+end;
+
+function TDebt.debtorPhoneNumber: string;
+begin
+
+end;
+
+function TDebt.debtorPhoneNumber(aValue: string): iDebt;
+begin
+  Result := Self;
+end;
+
+function TDebt.debtStatus(aValue: boolean): iDebt;
+begin
+  Result := Self;
+end;
+
+function TDebt.debtStatus: boolean;
+begin
+
+end;
+
+function TDebt.debtType: TDebtEnum;
+begin
+
+end;
+
+function TDebt.debtType(aValue: TDebtEnum): iDebt;
+begin
+  Result := Self;
+end;
+
+function TDebt.description: string;
+begin
+
+end;
+
+function TDebt.description(aValue: string): iDebt;
+begin
+
+end;
+
+destructor TDebt.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TDebt.New: iDebt;
+begin
+  Result := Self.Create;
+end;
+
+end.

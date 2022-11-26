@@ -1,0 +1,22 @@
+unit interfaces.debt;
+
+interface
+
+uses
+  uPrincipal;
+
+type
+  iDebt = interface
+    ['{1E282C97-19CA-4C22-9200-9731FCD6E334}']
+    function setDescription(aValue: string): iDebt;
+    function setDebtorName(aValue: string): iDebt;
+    function setDebtorPhoneNumber(aValue: string): iDebt;
+    function setDebt(aValue: double): iDebt;
+    function setDebtType(aValue: TDebtTypes): iDebt;
+
+    function getDebt: double;
+  end;
+
+implementation
+
+end.
